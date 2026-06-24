@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+client/dist/
+**/dist/
+
+# SQLite database
+server/data/
+*.db
+*.db-wal
+*.db-shm
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test files
+client/test-*.cjs
+client/test-*.js
+client/index-test.html
+client/public/pdf-debug.html
+
+# Logs
+*.log
+npm-debug.log*

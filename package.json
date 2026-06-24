@@ -1,0 +1,14 @@
+{
+  "name": "freelancer-tool",
+  "version": "1.0.0",
+  "private": true,
+  "description": "自由职业者报价+合同+收款一体化工具",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
